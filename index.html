@@ -1,59 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,900,900i" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-
-    <body>
-
-<a href="page4.html"><div class="long-arrow-right"></div></a>
-        <!-- <a href="page4.html"><button class="w3-button w3-circle w3-black">+</button></a> -->
-
-        <!-- <div class="typewriter"> -->
-        <!-- <h1 class="typewriter">Push the button go to the next page and learn about the textiles.</h1> -->
-        <div class="type">
+<head>
+	 <link rel="stylesheet" href="stylecaro.css">
+</head>
+<body>
+    <div class="type">
         <button onclick=toggleText()>X</button>
-        <p id="mytext">Explore punctuation being displaced from <br> its linguistic origin and placed in an abstract moment through creating patterns to communicate a visual expression instead of a verbal one. Navigate through the pages to learn about the different textiles and then create your own pattern.</p>
+        <p id="mytext">Explore punctuation being displaced<br> from its linguistic origin and placed in <br> an abstract moment through creating patterns to communicate a visual expression instead of a verbal one. Navigate through the pages to learn about the different textiles and then <br>create your own pattern.</p>
 
         </div>
+<div class="carousel">       
+    <div class="carousel-slider">    
+   <img name="SecondPage" src="assets/test2.mp4" id="video" class="carousel-item"/> 
+       <a href="page1.html">  <img name="FirstPage" src="assets/test.mp4" id="video" class="carousel-item"/></a>
+       <a href="page5.html"><img name="ThirdPage" src="assets/test3.mp4" id="video" class="carousel-item"/></a>
+    <!--   <img name="Beihai Park" src="https://drive.google.com/uc?id=1VxJ9z_rtTuAWV-4AXGw-bhkByWaphfUb" class="carousel-item" /> -->
+     <!--  <img name="Houhai Park" src="https://drive.google.com/uc?id=1bSA6BAhgRHFUjsp0QSp0U14JsYsBMbIX" class="carousel-item" />        
+      <img name="Yuyuantan Park" src="https://drive.google.com/uc?id=1jPdf4cqZaaq1QStx5fUDQ68lkDuZesLy" class="carousel-item" />  -->          
+    </div>
+  </div>
 
-        <img class="floating" id="sv11" src="assets/Sv11.svg">
-        <img class="floating2" id="sv2" src="assets/Sv2.svg">
-        <img class="floating" id="sv1" src="assets/Sv1.svg">
-        <img class="floating" id="sv3" src="assets/Sv3.svg">
-        <img class="floating2" id="sv4" src="assets/Sv4.svg">
-        <img class="floating2" id="sv5" src="assets/Sv5.svg">
-        <img class="floating" id="sv6" src="assets/Sv6.svg">
-        <img class="floating2" id="sv7" src="assets/Sv7.svg">
-        <img class="floating" id="sv8" src="assets/Sv8.svg">
-        <img class="floating2" id="sv9" src="assets/Sv9.svg">
-        <img class="floating2" id="sv10" src="assets/Sv10.svg">
-        <img class="floating" id="sv11" src="assets/Sv11.svg">
-        <img class="floating" id="sv12" src="assets/Sv12.svg">
-        <img class="floating2" id="sv13" src="assets/Sv13.svg">
-        <img class="floating2" id="sv14" src="assets/Sv14.svg">
-        <img class="floating2" id="sv15" src="assets/Sv15.svg">
-        <img class="floating" id="sv16" src="assets/Sv16.svg">
-        <img class="floating2" id="sv17" src="assets/Sv17.svg">
-        <img class="floating2" id="sv18" src="assets/Sv35.svg">
-        <img class="floating" id="sv20" src="assets/Sv20.svg">
-        <img class="floating2" id="sv21" src="assets/Sv21.svg">
-        <img class="floating" id="sv22" src="assets/Sv22.svg">
-
-        
-     
-
-<script>
-
-function toggleText(){
-  var y = document.querySelector(".type");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-  }
-}
-</script>
-    </body>
+  <script src="caroscript.js"></script>
+</body>
 </html>
