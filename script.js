@@ -102,6 +102,7 @@ document.addEventListener("keydown", function (e) {
 document.getElementById('punc-option1').addEventListener('click', hideothers);
 function hideothers (
     ){ document.getElementById('punc-option12').style.display = "none"
+document.getElementById('punc-option12').style.position = "absolute"
     document.getElementById('punc-option10').style.display = "none"
     document.getElementById('punc-option19').style.display = "none"
 
