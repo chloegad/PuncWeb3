@@ -34,11 +34,13 @@ body {
     bottom: 10rem;*/
     height: 100vh; 
     width: 100vw; 
+/*    background-color: white;*/
 
 
 }
 
 .punc-option {
+    z-index: 10; 
     display: none;
    /* height: 100%;*/
     transform: rotate(0deg);
@@ -51,6 +53,27 @@ body {
 /*    position: absolute;*/
 
 }
+
+.punc-option-row1 {
+    position: absolute;
+    top:0px;
+}
+
+.punc-option-row2 {
+    position: absolute;
+    top: 300px;
+}
+
+.punc-option-row3 {
+    position: absolute;
+    top: 700px;
+}
+
+.punc-option-row4 {
+    position: absolute;
+    top: 1100px;
+}
+
 
 
 .punc-option:not(:last-child) {
@@ -191,6 +214,14 @@ font-size: 30px;
     animation-delay: 2s;
     
 }
+
+.punc-container {
+    position: absolute;
+    top: 100px;
+    height: calc(100vh - 100px);
+    width: 100vw;
+}
+
 
 /*#draggable { width: 150px; height: 150px; padding: 0.5em; }
 

@@ -123,6 +123,8 @@ font-weight: 400;
 	padding-left: 10%;
 	/*position: relative;*/
 	position: absolute;
+	z-index: 100; 
+	mix-blend-mode: difference;
 	
 }
 
@@ -153,9 +155,11 @@ font-weight: 400;
 	height: 50%;
 	width: 50%;
 	padding-top: 20%;
-	padding-left: 20%;
+	padding-left: 60%;
 	/*position: relative;*/
 	position: absolute;
+	z-index: -9; 
+	mix-blend-mode: difference;
 	
 }
 #sv12 {
@@ -203,6 +207,7 @@ font-weight: 400;
 	rotate: 20deg;
 	/*position: relative;*/
 	position: absolute;
+	z-index: 7;
 
 
 }
@@ -274,10 +279,10 @@ font-weight: 400;
 
 #sv21 {
 
-	height: 20%;
-	width: 20%;
+	height: 50%;
+	width: 50%;
 	padding-top: 20%;
-	padding-left: 5%;
+	padding-left: 20%;
 	/*position: relative;*/
 	position: absolute;
 	

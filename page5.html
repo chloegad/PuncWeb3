@@ -14,59 +14,142 @@
 
   <div class="type">
         <button onclick=toggleText()>X</button> 
-        <p id="mytext">Type one of the following ( ) - { } [ ] ; " , <<    >> . ! ? * : 
-        Click and drag to select one then use the arrow keys <br>to resize and rotate</p>
+        <p id="mytext">Type one of the following ( - {  [  ; " , <<  . ! ? * : ;
+        Click the punctuation mark you want to select and use the arrow keys on your keyboard to resize and rescale. After this drag and place it. Now repeat this to add differnet punctuation and create a pattern. Don't forget to take a screenshot of your creation. Refresh to start over.</p>
 
         </div>
 
-<!-- <div id="draggable" class="ui-widget-content"> -->
-<!--  <img id="draggable" src="./assets/Sv1.svg"> -->
-<!-- </div> -->
 
-        <!-- <a href="index.html"><button class="w3-button w3-circle w3-black">+</button></a> -->
 
 
         <div class="punc-option-container">
 
+<div class="bracket punc-container">
+          <img class="punc-option punc-option-row1" id="punc-option1" src="./assets/Sv1.svg">
+             <img class="punc-option punc-option-row2" id="punc-option12" src="./assets/Sv12.svg">
+            <img class="punc-option punc-option-row3" id="punc-option10" src="./assets/Sv10.svg">
+            <img class="punc-option punc-option-row4" id="punc-option19" src="./assets/Sv19.svg">
+        </div>
 
-            <img class="punc-option" id="punc-option11" src="./assets/Sv11.svg">
-            <img class="punc-option" id="punc-option1" src="./assets/Sv1.svg">
-            <img class="punc-option" id="punc-option15" src="./assets/Sv15.svg">
-            <img class="punc-option" id="punc-option16" src="./assets/Sv16.svg">
-            <img class="punc-option" id="punc-option22" src="./assets/Sv22.svg">
-            <img class="punc-option" id="punc-option2" src="./assets/Sv2.svg">
-            <img class="punc-option" id="punc-option3" src="./assets/Sv3.svg">
-            <img class="punc-option" id="punc-option20" src="./assets/Sv20.svg">
-            <img class="punc-option" id="punc-option21" src="./assets/Sv21.svg">
-            <img class="punc-option" id="punc-option18" src="./assets/Sv18.svg">
-            <img class="punc-option" id="punc-option13" src="./assets/Sv13.svg">
-            <img class="punc-option" id="punc-option4" src="./assets/Sv4.svg">
-            <img class="punc-option" id="punc-option14" src="./assets/Sv14.svg">
-            <img class="punc-option" id="punc-option5" src="./assets/Sv5.svg">
-            <img class="punc-option" id="punc-option6" src="./assets/Sv6.svg">
-            <img class="punc-option" id="punc-option7" src="./assets/Sv7.svg">
-            <img class="punc-option" id="punc-option8" src="./assets/Sv8.svg">
-            <img class="punc-option" id="punc-option9" src="./assets/Sv9.svg">
-            <img class="punc-option" id="punc-option10" src="./assets/Sv10.svg">
-            <img class="punc-option" id="punc-option12" src="./assets/Sv12.svg">
-            <img class="punc-option" id="punc-option14" src="./assets/Sv14.svg">
-            <img class="punc-option" id="punc-option17" src="./assets/Sv17.svg">
-            <img class="punc-option" id="punc-option19" src="./assets/Sv19.svg">
-            <img class="punc-option" id="punc-option21" src="./assets/Sv21.svg">
-            <img class="punc-option" id="punc-option24" src="./assets/Sv24.svg">
-            <img class="punc-option" id="punc-option25" src="./assets/Sv25.svg">
-            <img class="punc-option" id="punc-option26" src="./assets/Sv26.svg">
-            <img class="punc-option" id="punc-option27" src="./assets/Sv27.svg">
-            <img class="punc-option" id="punc-option28" src="./assets/Sv28.svg">
-            <img class="punc-option" id="punc-option29" src="./assets/Sv29.svg">
-            <img class="punc-option" id="punc-option30" src="./assets/Sv30.svg">
-            <img class="punc-option" id="punc-option32" src="./assets/Sv32.svg">
-            <img class="punc-option" id="punc-option31" src="./assets/Sv31.svg">
-            <img class="punc-option" id="punc-option33" src="./assets/Sv33.svg">
-            <img class="punc-option" id="punc-option34" src="./assets/Sv34.svg">
-            <img class="punc-option" id="punc-option37" src="./assets/Sv37.svg">
-            <img class="punc-option" id="punc-option38" src="./assets/Sv38.svg">
-            <img class="punc-option" id="punc-option39" src="./assets/Sv39.svg">
+<div class="exclamation punc-container">
+           <img class="punc-option punc-option-row1" id="punc-option4" src="./assets/Sv4.svg">
+            <img class="punc-option punc-option-row2" id="punc-option14" src="./assets/Sv14.svg">
+            <img class="punc-option punc-option-row3" id="punc-option17" src="./assets/Sv17.svg">
+            <img class="punc-option punc-option-row4" id="punc-option7" src="./assets/Sv7.svg">
+</div>
+
+
+<div class="square-bracket punc-container">
+        <img class="punc-option punc-option-row1" id="punc-option2" src="./assets/Sv2.svg">
+        <img class="punc-option punc-option-row2" id="punc-option11" src="./assets/Sv11.svg">
+        <img class="punc-option punc-option-row3" id="punc-option22" src="./assets/Sv22.svg">
+         <img class="punc-option punc-option-row4" id="punc-option15" src="./assets/Sv15.svg">
+</div>
+
+<div class="question punc-container">
+    <img class="punc-option punc-option-row1" id="punc-option3" src="./assets/Sv3.svg">
+    <img class="punc-option punc-option-row2" id="punc-option13" src="./assets/Sv13.svg">
+    <img class="punc-option punc-option-row3" id="punc-option20" src="./assets/Sv20.svg">
+    <img class="punc-option punc-option-row4" id="punc-option38" src="./assets/Sv38.svg">
+           
+</div>
+
+<div class="carrot punc-container">
+    <img class="punc-option punc-option-row1" id="punc-option5" src="./assets/Sv5.svg">
+    <img class="punc-option punc-option-row2" id="punc-option36" src="./assets/Sv36.svg">
+    <img class="punc-option punc-option-row3" id="punc-option46" src="./assets/Sv46.svg">
+    <img class="punc-option punc-option-row4" id="punc-option42" src="./assets/Sv42.svg">
+           
+</div>
+
+<div class="quotes punc-container">
+    <img class="punc-option punc-option-row1" id="punc-option6" src="./assets/Sv6.svg">
+    <img class="punc-option punc-option-row2" id="punc-option53" src="./assets/Sv53.svg">
+    <img class="punc-option punc-option-row3" id="punc-option51" src="./assets/Sv51.svg">
+    <img class="punc-option punc-option-row4" id="punc-option52" src="./assets/Sv52.svg">
+           
+</div>
+
+<div class="fullstop punc-container">
+      <img class="punc-option punc-option-row1" id="punc-option37" src="./assets/Sv37.svg">
+      <img class="punc-option punc-option-row2" id="punc-option39" src="./assets/Sv39.svg">
+      <img class="punc-option punc-option-row3" id="punc-option25" src="./assets/Sv25.svg">
+      <img class="punc-option punc-option-row4" id="punc-option24" src="./assets/Sv24.svg">
+           
+</div>
+
+<div class="dash punc-container">
+    <img class="punc-option punc-option-row1" id="punc-option41" src="./assets/Sv41.svg">
+      <img class="punc-option punc-option-row2" id="punc-option33" src="./assets/Sv33.svg">
+      <img class="punc-option punc-option-row3" id="punc-option34" src="./assets/Sv34.svg">
+      <img class="punc-option punc-option-row4" id="punc-option40" src="./assets/Sv40.svg">
+           
+</div>
+<div class="star punc-container">
+
+            <img class="punc-option punc-option-row1" id="punc-option9" src="./assets/Sv9.svg">
+            <img class="punc-option punc-option-row2" id="punc-option44" src="./assets/Sv44.svg">
+            <img class="punc-option punc-option-row3" id="punc-option43" src="./assets/Sv43.svg">
+
+            <img class="punc-option punc-option-row4" id="punc-option45" src="./assets/Sv45.svg">
+
+           
+</div>
+
+<div class="curly punc-container">
+    <img class="punc-option punc-option-row1" id="punc-option21" src="./assets/Sv21.svg">
+            <img class="punc-option punc-option-row2" id="punc-option18" src="./assets/Sv18.svg">
+             <img class="punc-option punc-option-row3" id="punc-option35" src="./assets/Sv35.svg">
+              <img class="punc-option punc-option-row4" id="punc-option27" src="./assets/Sv27.svg">
+        
+           
+</div>
+<div class="colon punc-container">
+    <img class="punc-option punc-option-row1" id="punc-option50" src="./assets/Sv50.svg">
+
+            <img class="punc-option punc-option-row2" id="punc-option47" src="./assets/Sv47.svg">
+            <img class="punc-option punc-option-row3" id="punc-option48" src="./assets/Sv48.svg">
+            <img class="punc-option punc-option-row4" id="punc-option49" src="./assets/Sv49.svg">
+    
+           
+</div>
+
+<div class="semicolon punc-container">
+     <img class="punc-option punc-option-row1" id="punc-option32" src="./assets/Sv32.svg">
+     <img class="punc-option punc-option-row2" id="punc-option54" src="./assets/Sv54.svg">
+     <img class="punc-option punc-option-row3" id="punc-option55" src="./assets/Sv55.svg">
+    <img class="punc-option punc-option-row4" id="punc-option56" src="./assets/Sv56.svg">
+
+           
+</div>
+<div class="coma punc-container">
+    <img class="punc-option punc-option-row1" id="punc-option28" src="./assets/Sv28.svg">
+            <img class="punc-option punc-option-row2" id="punc-option29" src="./assets/Sv29.svg">
+            <img class="punc-option punc-option-row3" id="punc-option30" src="./assets/Sv30.svg">
+            <img class="punc-option punc-option-row4 " id="punc-option31" src="./assets/Sv31.svg">
+
+           
+</div>
+<!--        
+
+ -->
+
+            
+           
+            
+          
+        
+           
+            
+         
+           
+            
+           
+        
+          
+            
+            
+    
 
 
 
