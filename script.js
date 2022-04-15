@@ -71,6 +71,7 @@ var puncs = ["punc-option1",
 
 document.addEventListener("keydown", function (e) {
     e.preventDefault();
+
     if (e.key === '(') {
 
         
@@ -89,6 +90,8 @@ document.addEventListener("keydown", function (e) {
                 }
             }
         }
+
+
 
     }  else if (e.key === '[') {
 
@@ -137,6 +140,8 @@ document.addEventListener("keydown", function (e) {
         document.getElementById('punc-option14').style.display = "block";
         document.getElementById('punc-option17').style.display = "block";
         document.getElementById('punc-option7').style.display = "block";
+
+        
 
     } else if (e.key === '>') {
 
