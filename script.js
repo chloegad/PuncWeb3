@@ -141,7 +141,7 @@ document.addEventListener("keydown", function (e) {
         document.getElementById('punc-option17').style.display = "block";
         document.getElementById('punc-option7').style.display = "block";
 
-        
+
 
     } else if (e.key === '>') {
 
@@ -1932,10 +1932,5 @@ function toggleText(){
 
   
 
-        //
-        // document.getElementById('punc-option1').style.display = "none";
-        // document.getElementById('punc-option12').style.display = "none";
-        // document.getElementById('punc-option10').style.display = "none";
-        // document.getElementById('punc-option19').style.display = "none";
 
 

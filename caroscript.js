@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', e => {
-  // customizable variables
+ 
   let item_show = 3;  
   let transition = "0.95s ease-out";
   
-  // initial state    
+    
   let carousel_items = document.querySelectorAll(".carousel-item");
   let item_num = carousel_items.length;
 
@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', e => {
   let item_height = active_item.clientHeight;
   let radius = item_show * item_width / 2;
   
-  let r_head = 2; // index of the next item to show on the right side
-  let l_head = item_num-2;  // index of the next item to show on the left side
+  let r_head = 2; 
+  let l_head = item_num-2;  
 
   shift_to_active(active_item);
   shift_to_left(l_item);
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', e => {
     let { x: center_x, y: center_y, width, height } = carousel_center;
 
     if(x<center_x-width/2 && x>center_x-radius && y>center_y-height/1.25 && y<center_y+height/1.25){
-      // slide to right --> 
+     
       shift_to_back(r_item);
       shift_to_right(active_item);
       shift_to_active(l_item);
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', e => {
     }
 
     if(x>center_x+width/2 && x<center_x+radius && y>center_y-height/1.25 && y<center_y+height/1.25){
-      // shift left <--
+   
       shift_to_back(l_item);
       shift_to_left(active_item);
       shift_to_active(r_item);
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', e => {
     }
   }
   
-  // get carousel's center coordinates, width and height
+  
   function origin(elem) {
     let rect = elem.getBoundingClientRect();
     let left = rect.left + (window.pageXOffset || document.documentElement.scrollLeft),
@@ -115,4 +115,3 @@ function toggleText(){
     y.style.display = "none";
   }
 }
-// document.querySelector('#video').play();

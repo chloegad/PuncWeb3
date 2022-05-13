@@ -27,75 +27,74 @@ body {
 
 .long-arrow-right{
     z-index: 3;
-  /*display: block;*/
-  position: absolute;
-  top: 0%;
-  left: 95%;
-  margin: 30px auto;
-  width: 25px;
-  height: 25px;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
+    position: absolute;
+    top: 0%;
+    left: 95%;
+    margin: 30px auto;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
 
 }
 
 .long-arrow-right{
     z-index: 3;
- transform: rotate(135deg);
- color: solid white;
+    transform: rotate(135deg);
+    color: solid white;
 }
 
 .long-arrow-right::after{
     z-index: 3;
-     position: absolute;
-  top: 0%;
-  left: 95%;
-  content: "";
-  display: block;
-  width: 2px;
-  height: 45px;
-  background-color: white;
-  transform: rotate(-45deg) translate(15px, 4px);
-  left: 0;
-  top: 0;
+    position: absolute;
+    top: 0%;
+    left: 95%;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: white;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
 }
 
 
 .long-arrow-left{
     z-index: 3;
-  position: absolute;
-  top: 0%;
-  right: 95%;
-  display: block;
-  margin: 30px auto;
-  width: 25px;
-  height: 25px;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
+    position: absolute;
+    top: 0%;
+    right: 95%;
+    display: block;
+    margin: 30px auto;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
 }
 
 
 
 .long-arrow-left{
      z-index: 3;
- transform: rotate(-45deg);
-  color: solid white;
+    transform: rotate(-45deg);
+    color: solid white;
 }
 
 
 .long-arrow-left::after{
-     z-index: 3;
-      position: absolute;
-  top: 0%;
-  right: 95%;
-  content: "";
-  display: block;
-  width: 2px;
-  height: 45px;
-  background-color: white;
-  transform: rotate(-45deg) translate(15px, 4px);
-  left: 0;
-  top: 0;
+    z-index: 3;
+    position: absolute;
+    top: 0%;
+    right: 95%;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: white;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
 }
 
 
@@ -115,14 +114,13 @@ button {
     left: 62%;
     top: 5%;
     color: white; 
-background-color: black;
-width: 50px; 
-height: 50px;
-z-index: 5; 
-border: none;
-font-size: 30px;
- animation: fadeInAnimation ease 5s;
-   /* animation-iteration-count: 1;*/
+    background-color: black;
+    width: 50px; 
+    height: 50px;
+    z-index: 5; 
+    border: none;
+    font-size: 30px;
+    animation: fadeInAnimation ease 5s;
     animation-fill-mode: forwards;
     animation-delay: 2s;
     
@@ -131,18 +129,18 @@ font-size: 30px;
 
 
 
-p {position: absolute;
+p {
+    position: absolute;
     font-family: 'Montserrat', sans-serif;
     z-index: 2; 
-font-weight: 400;
+    font-weight: 400;
     padding-left: 3%;
-      padding-right: 30%;
-      padding-top: 4%;
+    padding-right: 30%;
+    padding-top: 4%;
     color: white;
     font-size: 40px;
     opacity: 0%;
-     animation: fadeInAnimation ease 5s;
-   /* animation-iteration-count: 1;*/
+    animation: fadeInAnimation ease 5s;
     animation-fill-mode: forwards;
     animation-delay: 2s;
     mix-blend-mode:difference;
@@ -152,43 +150,20 @@ font-weight: 400;
 
 
 
-/*.type{
-    position: absolute;
-    padding-top: 5%;
-    z-index: 2;
-    height: auto;
-    width: 50%;
-    mix-blend-mode:difference;
-
-}*/
-
-
-
-/*.typewriter {
-    overflow: hidden;
-    border-right: .15em solid white;
-    white-space: nowrap;
-    letter-spacing: .15em;
-    animation: typing 3.5s steps(40, end), blink .75s step-end infinite;
-    color: white;
-}
-*/
 .item-container {
     z-index: 0;
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 3rem;
+    grid-row-gap: 3rem;
 }
 
 .item {
     position: relative;
     width: calc((100vw - 15rem) / 4);
     height: calc(((100vw - 15rem) / 4) / 1.7);
-    /* background-color: aliceblue; */
-    /* z-index: 99999; */
-    /* background-color: aliceblue; */
+   
 }
 
 .punc {
